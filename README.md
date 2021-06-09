@@ -18,3 +18,8 @@ a<-"hej"
 in this snippet, `a` is an array of length 1 and type `character`. The single entry in this array is has the value `hej`. Thus, a charactter-array hols strings! Big confusion for the person more familiar with Haskell, where strings are by definition character arrays.
 
 In part Two, we are supposed to do an early stopping, so the very procedural style I went for in part One was very suitable.
+
+# Day 2
+This was boring. Once again, I realized how strange the string manipulation in R is. Also, the distinction between array and list came to bite me a few times. That `strsplit` returns lists, and that `myList[1]` does not return the first element in a list, or that `for(a in strsplit(myStr,delim)){...}` iterates **once**is also *very strange*. And `a` is the whole list. :/
+
+Anyways. After figuring that out, all went smoothly. No complexity to bother about.
